@@ -1,8 +1,8 @@
 Package: jtdm
 Type: Package
 Title: Joint Modelling of Functional Traits
-Version: 0.1-0
-Description: Fitting and analyzing a Joint Trait Distribution Model. The Joint Trait Distribution Model is implemented in the Bayesian framework using conjugate priors and posteriors, thus guaranteeing fast inference. In particular the package computes joint probabilities and multivariate confidence intervals, and enables the investigation of how they depend on the environment through partial response curves.
+Version: 0.1-1
+Description: Fitting and analyzing a Joint Trait Distribution Model. The Joint Trait Distribution Model is implemented in the Bayesian framework using conjugate priors and posteriors, thus guaranteeing fast inference. In particular the package computes joint probabilities and multivariate confidence intervals, and enables the investigation of how they depend on the environment through partial response curves. The method implemented by the package is described in Poggiato et al. (2023) <doi:10.1111/geb.13706>.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
@@ -18,9 +18,9 @@ VignetteBuilder: knitr
 BugReports: https://github.com/giopogg/jtdm/issues
 Suggests: knitr, rmarkdown, devtools
 NeedsCompilation: no
-Packaged: 2023-01-23 16:44:56 UTC; poggiatg
+Packaged: 2023-09-25 08:34:44 UTC; poggiatg
 Author: Giovanni Poggiato [aut, cre, cph]
     (<https://orcid.org/0000-0003-1957-9764>)
 Maintainer: Giovanni Poggiato <giov.poggiato@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-01-24 10:50:05 UTC
+Date/Publication: 2023-09-25 09:50:06 UTC

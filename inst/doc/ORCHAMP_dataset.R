@@ -1,4 +1,4 @@
-## ---- include = FALSE---------------------------------------------------------
+## ----include = FALSE----------------------------------------------------------
 knitr::opts_chunk$set(fig.path='figures/',
                       collapse = TRUE,
                       comment = "#>",
